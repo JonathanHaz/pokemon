@@ -10,19 +10,19 @@ export default function Footer() {
     <div className={styles.container}>
       <div className={styles.linksContainer}>
         <Magnetic>
-          <div className={styles.iconContainer}>
+          <a href="https://github.com/JonathanHaz" target="_blank" rel="noopener noreferrer" className={styles.iconContainer}>
             <FaGithub />
-          </div>
+          </a>
         </Magnetic>
         <Magnetic>
-          <div className={styles.iconContainer}>
+          <a href="https://www.linkedin.com/in/jonathanhaz/" target="_blank" rel="noopener noreferrer" className={styles.iconContainer}>
             <FaLinkedin />
-          </div>
+          </a>
         </Magnetic>
         <Magnetic>
-          <div className={styles.iconContainer}>
+          <a href="https://www.instagram.com/jonathan.hazan1/" target="_blank" rel="noopener noreferrer" className={styles.iconContainer}>
             <FaInstagram />
-          </div>
+          </a>
         </Magnetic>
       </div>
     </div>
