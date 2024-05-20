@@ -1,0 +1,150 @@
+.container{
+    height: 92vh;
+    width: 100vw;
+    cursor: url(https://cdn.custom-cursor.com/db/249/32/arrow2282.png), pointer
+  }
+  
+  .navbarContainer {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin-top: 10px;
+  }
+  
+  .background{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    height: 80vh;
+    width: 100vw;
+    background: linear-gradient(rgba(83, 7, 7, 0.4), rgba(0, 0, 0, 0.651)), url("/bg-red.svg") no-repeat center;
+    background-size: cover;
+  }
+  
+  .pokeball{
+    cursor: url(https://cdn.custom-cursor.com/db/250/32/arrow2282.png), default;
+    height: 30%;
+    width: 15%;
+    position: absolute;
+    z-index: 0;
+    bottom: 10vh;
+    left: 42vw;
+    border-radius: 50%;
+    filter: drop-shadow(0px 41px 29px #353535);
+    animation: moveUpDown 7s linear infinite;
+  }
+  
+  
+  .hero{
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 3px 4px 5px rgba(0,0,0,0.6);
+  }
+  
+  .title{
+    text-align: center;
+    font-size: 3.2rem;
+    font-family: "Poetsen One";
+    color: white;
+    text-shadow: 3px 4px 5px rgba(0,0,0,0.6);
+  }
+  
+  .secondTitle{
+    font-size: 1.5rem;
+    font-family: "Poetsen One";
+    color: rgb(255, 255, 255);
+  }
+
+  .button{
+    font-family: "Poetsen One";
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    background: none;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s;
+  }
+
+  .button:hover{
+    cursor: url(https://cdn.custom-cursor.com/db/250/32/arrow2282.png), pointer;
+    color: rgb(94, 9, 9);
+    background: rgb(255, 255, 255);
+    transform: translateY(4px);
+  }
+
+  .mewtwo{
+    position: absolute;
+    z-index: 1;
+    top: 20vh;
+    left: 4vw;
+  }
+
+  .lucario{
+    position: absolute;
+    z-index: 1;
+    bottom: 5vh;
+    right: 15vw;
+  }
+
+  .gengar{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+  }
+
+.mewtwoCard {
+ scale: 1;
+ transition: all 0.5s;
+}
+
+.lucarioCard {
+  scale: 0.85;
+  transition: all 0.5s;
+}
+
+.gengarCard {
+  scale: 0.8;
+  transition: all 0.5s;
+}
+
+.mewtwoCard:hover{
+  transform: scale(1.02);
+ }
+ 
+ .lucarioCard:hover{
+   transform: scale(1.02);
+ 
+ }
+ 
+ .gengarCard:hover{
+   transform: scale(1.025);
+ }
+
+
+  @keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(20px);
+  
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  
+  
