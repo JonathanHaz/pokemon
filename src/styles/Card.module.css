@@ -104,7 +104,7 @@
     .stats{
         display: flex;
         flex-direction: column;
-        height: auto; /* Set height to auto to allow it to expand based on content */
+        height: auto; 
     }
 
     .statinfo{
@@ -116,7 +116,39 @@
         font-size: 6px;
     }
 
+    @media screen and (max-width: 1150px) {
+        .cardContainer {
+            min-width: 30vw;
+            height: 65vh; 
+        }
+        .type{
+            width: 5vw;
+        }
+        .statinfo{
+            font-size: 8px;
+            justify-content: space-between;
+            gap: 4px;
+            width: 90%;
+            padding: 3px;
+        }
 
+    }
+
+    @media screen and (max-width: 800px) {
+        .cardContainer {
+            min-width: 60vw;
+            height: 65vh; 
+        }
+        .type{
+            width: 30vw;
+        }
+        .statinfo{
+            gap: 4px;
+            width: 100%;
+            padding: 3px;
+        }
+  
+    }
 
 
 

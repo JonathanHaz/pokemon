@@ -22,8 +22,10 @@ export default function Home() {
       </Head>
       <div className={styles.container}>
       <First/>
-      <Footer/>
+      {/* <Footer/> */}
       </div>
     </>
   );
 }
+
+

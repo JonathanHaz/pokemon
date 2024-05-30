@@ -94,6 +94,7 @@ const gengar: Pokemon = {
           <div className={styles.pokeball}>
           <Spline scene="https://prod.spline.design/v4appmfvgnxBkThF/scene.splinecode" />
           </div>
+          <div className={styles.cards}>
         <div className={styles.mewtwo}>
           <div className={`${styles.cardContainer} ${styles.mewtwoCard}`}>
             <Card pokemon={mewtwo} />
@@ -110,6 +111,7 @@ const gengar: Pokemon = {
           <div className={`${styles.cardContainer} ${styles.gengarCard}`}>
             <Card pokemon={gengar} />
           </div>
+        </div>
         </div>
       </div>
   )

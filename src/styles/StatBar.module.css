@@ -16,3 +16,23 @@
     background-color: #ffffff;
     backdrop-filter: blur(5px);
 }
+
+@media screen and (max-width: 1150px) {
+    .statBarContainer {
+        width: 20vw;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .statBarContainer {
+        width: 10vw;
+    border-radius: 1px;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .statBarContainer {
+        width: 40vw;
+    }
+}
