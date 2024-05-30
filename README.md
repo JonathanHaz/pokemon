@@ -1,2 +1,4 @@
 A Pokemon Card Collection Landing Page.
-Created with Next.js
+Created Using Next.js, TypeScript, and Spline.
+
+Live demo: https://pokemon-seven-pi.vercel.app/
