@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import First from "../components/First";
 import Footer from "@/components/Footer";
+import PokemonGallery from "../components/PokemonGallery";
 
 
 
@@ -22,6 +23,7 @@ export default function Home() {
       </Head>
       <div className={styles.container}>
       <First/>
+      <PokemonGallery/>
       {/* <Footer/> */}
       </div>
     </>

@@ -28,7 +28,14 @@ const typeColors: Record<string, string> = {
     Ghost: '#5E60B1',
     Steel: '#B7B9D0',
     Fighting: '#80351A',
-    
+    Water: '#005792',
+    Fire: '#FF4500',
+    Grass: '#228B22',
+    Electric: '#FFD700',
+    Ice: '#00BFFF',
+    Dragon: '#7A378B',
+    Dark: '#000000',
+    Fairy: '#FF69B4',
 };
 
 const Card: React.FC<Props> = ({ pokemon }) => {
